@@ -1,0 +1,64 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin:20px 100px;
+}
+header{
+    text-align: center;
+}
+header p , header h1 , main h2{
+    color:#030616;
+}
+h1{
+    font-size: 2.25rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+.hr{
+    width:80%;
+    border:1px solid #D2D5DA;
+    margin:20px 0px;
+}
+main ul , ol{
+    margin:20px 0px;
+}
+span{
+    color:#4E80EE;
+}
+/* --footer-- */
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+.author-info a {
+    text-decoration: none;
+}
+
+/* --Media for Tablet-- */
+@media (max-width:1024px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    p,li{
+        font-size: 16px;
+    }
+    
+}
+/* --Media for Mobile-- */
+@media (max-width:412px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 0.850rem;
+    }
+    p,li{
+        font-size: 14px;
+    }
+    
+}
